@@ -1,0 +1,17 @@
+/* Mobile first */
+.container {
+  width: 100%;
+  padding: 0 var(--spacing-unit);
+}
+
+/* تبلت */
+@media (min-width: 768px) {
+  .container { max-width: 720px; margin: 0 auto; }
+  .hero__content { padding: 4rem; }
+}
+
+/* دسکتاپ */
+@media (min-width: 1024px) {
+  .container { max-width: 960px; }
+  .news-card { display: inline-flex; width: 45%; margin: 1%; }
+}
